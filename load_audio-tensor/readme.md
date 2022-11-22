@@ -12,5 +12,5 @@ Define a Spectogram - spectrum of frequencies of a record audio over time
 
 use numpy to listen to the audio
 
-Slicing:
+Slicing into overlapping frames:
 Vanilla tensor slicing: num_frames and frame_offset

@@ -23,4 +23,9 @@ The advantage of MFCC is that it is good in error reduction and able to produce 
 Look into Pitch and MFCC
 https://www.mathworks.com/help/audio/ug/speaker-identification-using-pitch-and-mfcc.html
 
+The motivating idea of MFCC is to compress information about the vocal tract (smoothed spectrum) into a small number of coefficients based on an understanding of the cochlea.
+
+
 https://towardsdatascience.com/learning-from-audio-the-mel-scale-mel-spectrograms-and-mel-frequency-cepstral-coefficients-f5752b6324a8
+
+https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html
