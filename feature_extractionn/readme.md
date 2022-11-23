@@ -29,3 +29,20 @@ The motivating idea of MFCC is to compress information about the vocal tract (sm
 https://towardsdatascience.com/learning-from-audio-the-mel-scale-mel-spectrograms-and-mel-frequency-cepstral-coefficients-f5752b6324a8
 
 https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html
+
+# Features for Classification
+- Pitch, MFCC
+- Zero-crossing rate, short-time energy : Determine when the pitch feature is used
+
+# Voiced Speech:
+Air from lungs is modulated by vocal cords and results in a Quasi-periodic excitation.
+- The sound is dominated by Low-frequency Oscillations (pitch)
+
+Pitch is a characterstic of regions of voiced speech.
+- Analyze short time energy to distinguish btn silence and speech.
+If energy in a frame is above a given threshold ->  frame  = speech.
+- Zero-crossing rate: Distinguishes btn voiced and unvoiced speech.
+A large number of zero crossings -> no dominant low-freq oscillatoins
+Therefore, below a given threshold -> voiced
+
+Kaldi pitch feature is tuned for ASR applications. (pitch extraction alg)
